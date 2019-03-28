@@ -20,7 +20,6 @@
  */
 
 #include "chipmunk/chipmunk_private.h"
-#include "prime.h"
 
 typedef struct cpSpaceHashBin cpSpaceHashBin;
 typedef struct cpHandle cpHandle;
