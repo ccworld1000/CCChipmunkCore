@@ -18,6 +18,8 @@
 		18867802224CCA7D002A8829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18867801224CCA7D002A8829 /* Assets.xcassets */; };
 		18867805224CCA7D002A8829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18867803224CCA7D002A8829 /* LaunchScreen.storyboard */; };
 		18867808224CCA7E002A8829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18867807224CCA7E002A8829 /* main.m */; };
+		831D18747672AB3DC22F2F2F /* libPods-CCChipmunkCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 726D13B57A7148F83F1C8177 /* libPods-CCChipmunkCore.a */; };
+		EA5E66FB71085387A48EEF92 /* libPods-CCChipmunkCoreiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D2203E906C8A65AD5775B1 /* libPods-CCChipmunkCoreiOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,12 @@
 		18867804224CCA7D002A8829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18867806224CCA7E002A8829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18867807224CCA7E002A8829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D2E752BCE14E555792DB4FE /* Pods-CCChipmunkCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCChipmunkCore.debug.xcconfig"; path = "Target Support Files/Pods-CCChipmunkCore/Pods-CCChipmunkCore.debug.xcconfig"; sourceTree = "<group>"; };
+		20D2203E906C8A65AD5775B1 /* libPods-CCChipmunkCoreiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCChipmunkCoreiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279138E11FC536AD9E625F90 /* Pods-CCChipmunkCoreiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCChipmunkCoreiOS.debug.xcconfig"; path = "Target Support Files/Pods-CCChipmunkCoreiOS/Pods-CCChipmunkCoreiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		726D13B57A7148F83F1C8177 /* libPods-CCChipmunkCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCChipmunkCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		956E6D7D06B3F159337F3F70 /* Pods-CCChipmunkCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCChipmunkCore.release.xcconfig"; path = "Target Support Files/Pods-CCChipmunkCore/Pods-CCChipmunkCore.release.xcconfig"; sourceTree = "<group>"; };
+		ABEDF5016E7C91AB619A83EB /* Pods-CCChipmunkCoreiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCChipmunkCoreiOS.release.xcconfig"; path = "Target Support Files/Pods-CCChipmunkCoreiOS/Pods-CCChipmunkCoreiOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831D18747672AB3DC22F2F2F /* libPods-CCChipmunkCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5E66FB71085387A48EEF92 /* libPods-CCChipmunkCoreiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +77,8 @@
 				188677DD224CCA3E002A8829 /* CCChipmunkCore */,
 				188677F7224CCA7D002A8829 /* CCChipmunkCoreiOS */,
 				188677DC224CCA3E002A8829 /* Products */,
+				C37A8CD5DD55D36C9C9E6690 /* Pods */,
+				9E86B4463CEF07FF74859825 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +123,27 @@
 			path = CCChipmunkCoreiOS;
 			sourceTree = "<group>";
 		};
+		9E86B4463CEF07FF74859825 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				726D13B57A7148F83F1C8177 /* libPods-CCChipmunkCore.a */,
+				20D2203E906C8A65AD5775B1 /* libPods-CCChipmunkCoreiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C37A8CD5DD55D36C9C9E6690 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D2E752BCE14E555792DB4FE /* Pods-CCChipmunkCore.debug.xcconfig */,
+				956E6D7D06B3F159337F3F70 /* Pods-CCChipmunkCore.release.xcconfig */,
+				279138E11FC536AD9E625F90 /* Pods-CCChipmunkCoreiOS.debug.xcconfig */,
+				ABEDF5016E7C91AB619A83EB /* Pods-CCChipmunkCoreiOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 188677EF224CCA3F002A8829 /* Build configuration list for PBXNativeTarget "CCChipmunkCore" */;
 			buildPhases = (
+				E6B20B7E968F3EA3D284DF4B /* [CP] Check Pods Manifest.lock */,
 				188677D7224CCA3E002A8829 /* Sources */,
 				188677D8224CCA3E002A8829 /* Frameworks */,
 				188677D9224CCA3E002A8829 /* Resources */,
@@ -135,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18867809224CCA7E002A8829 /* Build configuration list for PBXNativeTarget "CCChipmunkCoreiOS" */;
 			buildPhases = (
+				86490577A6F46DF1D6447B14 /* [CP] Check Pods Manifest.lock */,
 				188677F2224CCA7D002A8829 /* Sources */,
 				188677F3224CCA7D002A8829 /* Frameworks */,
 				188677F4224CCA7D002A8829 /* Resources */,
@@ -207,6 +242,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86490577A6F46DF1D6447B14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCChipmunkCoreiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B20B7E968F3EA3D284DF4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCChipmunkCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		188677D7224CCA3E002A8829 /* Sources */ = {
@@ -364,6 +446,7 @@
 		};
 		188677F0224CCA3F002A8829 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2E752BCE14E555792DB4FE /* Pods-CCChipmunkCore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CCChipmunkCore/CCChipmunkCore.entitlements;
@@ -378,6 +461,7 @@
 		};
 		188677F1224CCA3F002A8829 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956E6D7D06B3F159337F3F70 /* Pods-CCChipmunkCore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CCChipmunkCore/CCChipmunkCore.entitlements;
@@ -392,6 +476,7 @@
 		};
 		1886780A224CCA7E002A8829 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279138E11FC536AD9E625F90 /* Pods-CCChipmunkCoreiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -408,6 +493,7 @@
 		};
 		1886780B224CCA7E002A8829 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABEDF5016E7C91AB619A83EB /* Pods-CCChipmunkCoreiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

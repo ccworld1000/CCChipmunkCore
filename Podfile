@@ -6,6 +6,7 @@ target 'CCChipmunkCore' do
   # use_frameworks!
 
   # Pods for CCChipmunkCore
+  pod 'CCChipmunkCore'
 
 end
 
@@ -14,5 +15,6 @@ target 'CCChipmunkCoreiOS' do
   # use_frameworks!
 
   # Pods for CCChipmunkCoreiOS
+  pod 'CCChipmunkCore'
 
 end
